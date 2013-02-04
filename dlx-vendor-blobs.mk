@@ -22,6 +22,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
   vendor/htc/dlx/proprietary/etc/agps_rm:system/etc/agps_rm \
   vendor/htc/dlx/proprietary/bin/adaptive:system/bin/adaptive \
+  vendor/htc/dlx/proprietary/bin/rild:system/bin/rild \
   vendor/htc/dlx/proprietary/bin/akmd:system/bin/akmd \
   vendor/htc/dlx/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
   vendor/htc/dlx/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
