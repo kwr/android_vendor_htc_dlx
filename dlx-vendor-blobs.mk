@@ -22,7 +22,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
   vendor/htc/dlx/proprietary/etc/agps_rm:system/etc/agps_rm \
   vendor/htc/dlx/proprietary/bin/adaptive:system/bin/adaptive \
-  vendor/htc/dlx/proprietary/bin/rild:system/bin/rild \
   vendor/htc/dlx/proprietary/bin/akmd:system/bin/akmd \
   vendor/htc/dlx/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
   vendor/htc/dlx/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
@@ -145,9 +144,11 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlx/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
   vendor/htc/dlx/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
   vendor/htc/dlx/proprietary/lib/libidl.so:system/lib/libidl.so \
+  vendor/htc/dlx/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
   vendor/htc/dlx/proprietary/lib/libqdi.so:system/lib/libqdi.so \
   vendor/htc/dlx/proprietary/lib/libqdp.so:system/lib/libqdp.so \
   vendor/htc/dlx/proprietary/lib/libqmi.so:system/lib/libqmi.so \
+  vendor/htc/dlx/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
   vendor/htc/dlx/proprietary/lib/libqmi_cci.so:system/lib/libqmi_cci.so \
   vendor/htc/dlx/proprietary/lib/libqmi_common_so.so:system/lib/libqmi_common_so.so \
   vendor/htc/dlx/proprietary/lib/libqmi_csi.so:system/lib/libqmi_csi.so \
@@ -157,7 +158,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlx/proprietary/lib/libhtc_rilhook.so:system/lib/libhtc_rilhook.so \
   vendor/htc/dlx/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
   vendor/htc/dlx/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
-  vendor/htc/dlx/proprietary/lib/libril.so:system/lib/libril.so \
   vendor/htc/dlx/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
   vendor/htc/dlx/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
   vendor/htc/dlx/proprietary/lib/hw/sensors.dlx.so:system/lib/hw/sensors.dlx.so \
