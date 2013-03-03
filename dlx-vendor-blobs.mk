@@ -48,10 +48,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlx/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
   vendor/htc/dlx/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
   vendor/htc/dlx/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
-  vendor/htc/dlx/proprietary/lib/libmode10GLES20.so:system/lib/libmode10GLES20.so \
-  vendor/htc/dlx/proprietary/lib/libmode10.so:system/lib/libmode10.so \
-  vendor/htc/dlx/proprietary/lib/libmode10fx.so:system/lib/libmode10fx.so \
-  vendor/htc/dlx/proprietary/lib/libmode10AutoTest.so:system/lib/libmode10AutoTest.so \
   vendor/htc/dlx/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
   vendor/htc/dlx/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
   vendor/htc/dlx/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
@@ -167,9 +163,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlx/proprietary/lib/libmpl.so:system/lib/libmpl.so \
   vendor/htc/dlx/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
   vendor/htc/dlx/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
-  vendor/htc/dlx/proprietary/lib/libmllite.so:system/lib/libmllite.so \
-  vendor/htc/dlx/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
-  vendor/htc/dlx/proprietary/lib/libsrsprocessing.so:system/lib/libsrsprocessing.so \
   vendor/htc/dlx/proprietary/lib/libext3-fileio.so:system/lib/libext3-fileio.so \
   vendor/htc/dlx/proprietary/etc/firmware/BCM4334B0_002.001.013.0488.0604_DLX_WL.hcd:system/etc/firmware/BCM4334B0_002.001.013.0488.0604_DLX_WL.hcd \
   vendor/htc/dlx/proprietary/etc/firmware/BCM4334B0_002.001.013.0767.0794.hcd:system/etc/firmware/BCM4334B0_002.001.013.0767.0794.hcd \
