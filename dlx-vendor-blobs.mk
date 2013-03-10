@@ -64,6 +64,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlx/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
   vendor/htc/dlx/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
   vendor/htc/dlx/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+  vendor/htc/dlx/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
   vendor/htc/dlx/proprietary/lib/libgsl.so:system/lib/libgsl.so \
   vendor/htc/dlx/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
   vendor/htc/dlx/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
@@ -167,6 +168,8 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlx/proprietary/lib/libmpl.so:system/lib/libmpl.so \
   vendor/htc/dlx/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
   vendor/htc/dlx/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
+  vendor/htc/dlx/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
+  vendor/htc/dlx/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
   vendor/htc/dlx/proprietary/lib/libmllite.so:system/lib/libmllite.so \
   vendor/htc/dlx/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
   vendor/htc/dlx/proprietary/lib/libsrsprocessing.so:system/lib/libsrsprocessing.so \
