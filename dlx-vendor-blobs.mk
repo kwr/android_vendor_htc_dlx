@@ -16,8 +16,7 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-	vendor/htc/dlx/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
-	vendor/htc/dlx/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so
+	vendor/htc/dlx/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so \
 
 PRODUCT_COPY_FILES += \
   vendor/htc/dlx/proprietary/etc/agps_rm:system/etc/agps_rm \
@@ -29,7 +28,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlx/proprietary/bin/charging:system/bin/charging \
   vendor/htc/dlx/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
   vendor/htc/dlx/proprietary/bin/efsks:system/bin/efsks \
-  vendor/htc/dlx/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
   vendor/htc/dlx/proprietary/bin/hcheck:system/bin/hcheck \
   vendor/htc/dlx/proprietary/bin/hdmid:system/bin/hdmid \
   vendor/htc/dlx/proprietary/bin/ks:system/bin/ks \
@@ -57,6 +55,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlx/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
   vendor/htc/dlx/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
   vendor/htc/dlx/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
+  vendor/htc/dlx/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
   vendor/htc/dlx/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
   vendor/htc/dlx/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
   vendor/htc/dlx/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
@@ -79,6 +78,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlx/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
   vendor/htc/dlx/proprietary/lib/libmmcamera_rawchipproc.so:system/lib/libmmcamera_rawchipproc.so \
   vendor/htc/dlx/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
+  vendor/htc/dlx/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
   vendor/htc/dlx/proprietary/lib/libchromatix_ar0260_default_video.so:system/lib/libchromatix_ar0260_default_video.so \
   vendor/htc/dlx/proprietary/lib/libchromatix_imx175_hdr.so:system/lib/libchromatix_imx175_hdr.so \
   vendor/htc/dlx/proprietary/lib/libchromatix_s5k3h2yx_hfr.so:system/lib/libchromatix_s5k3h2yx_hfr.so \
@@ -144,6 +144,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlx/proprietary/lib/libdiag.so:system/lib/libdiag.so \
   vendor/htc/dlx/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
   vendor/htc/dlx/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
+  vendor/htc/dlx/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
   vendor/htc/dlx/proprietary/lib/libidl.so:system/lib/libidl.so \
   vendor/htc/dlx/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
   vendor/htc/dlx/proprietary/lib/libqdi.so:system/lib/libqdi.so \
