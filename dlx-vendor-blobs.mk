@@ -175,7 +175,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlx/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
   vendor/htc/dlx/proprietary/lib/libsrsprocessing.so:system/lib/libsrsprocessing.so \
   vendor/htc/dlx/proprietary/lib/libext3-fileio.so:system/lib/libext3-fileio.so \
-  vendor/htc/dlx/proprietary/etc/firmware/BCM4334B0_002.001.013.0488.0604_DLX_WL.hcd:system/etc/firmware/BCM4334B0_002.001.013.0488.0604_DLX_WL.hcd \
   vendor/htc/dlx/proprietary/etc/firmware/BCM4334B0_002.001.013.0767.0794.hcd:system/etc/firmware/BCM4334B0_002.001.013.0767.0794.hcd \
   vendor/htc/dlx/proprietary/etc/firmware/fw_bcm4334.bin:system/etc/firmware/fw_bcm4334.bin \
   vendor/htc/dlx/proprietary/etc/firmware/fw_bcm4334_apsta.bin:system/etc/firmware/fw_bcm4334_apsta.bin \
