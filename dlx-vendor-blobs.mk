@@ -65,7 +65,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlx/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
   vendor/htc/dlx/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
   vendor/htc/dlx/proprietary/lib/libgsl.so:system/lib/libgsl.so \
-  vendor/htc/dlx/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
   vendor/htc/dlx/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
   vendor/htc/dlx/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
   vendor/htc/dlx/proprietary/lib/libcam_oem_plugin.so:system/lib/libcam_oem_plugin.so \
@@ -139,12 +138,10 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlx/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
   vendor/htc/dlx/proprietary/lib/hw/nfc.dlx.so:system/lib/hw/nfc.dlx.so \
   vendor/htc/dlx/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
-  vendor/htc/dlx/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
   vendor/htc/dlx/proprietary/lib/libpn544_fw.so:system/lib/libpn544_fw.so \
   vendor/htc/dlx/proprietary/lib/libdiag.so:system/lib/libdiag.so \
   vendor/htc/dlx/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
   vendor/htc/dlx/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
-  vendor/htc/dlx/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
   vendor/htc/dlx/proprietary/lib/libidl.so:system/lib/libidl.so \
   vendor/htc/dlx/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
   vendor/htc/dlx/proprietary/lib/libqdi.so:system/lib/libqdi.so \
