@@ -155,7 +155,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlx/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
   vendor/htc/dlx/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
   vendor/htc/dlx/proprietary/lib/hw/nfc.dlx.so:system/lib/hw/nfc.dlx.so \
-  vendor/htc/dlx/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
+  vendor/htc/dlx/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/vendor-camera.msm8960.so \
   vendor/htc/dlx/proprietary/lib/libpn544_fw.so:system/lib/libpn544_fw.so \
   vendor/htc/dlx/proprietary/lib/libdiag.so:system/lib/libdiag.so \
   vendor/htc/dlx/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
