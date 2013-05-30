@@ -183,6 +183,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlx/proprietary/lib/libmpl.so:system/lib/libmpl.so \
   vendor/htc/dlx/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
   vendor/htc/dlx/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
+  vendor/htc/dlx/proprietary/lib/libllvm-arm.so:system/lib/libllvm-arm.so \
   vendor/htc/dlx/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
   vendor/htc/dlx/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
   vendor/htc/dlx/proprietary/lib/libmllite.so:system/lib/libmllite.so \
